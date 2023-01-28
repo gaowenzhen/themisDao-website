@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Segoe UI-Bold, Segoe UI;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-background-clip: text;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  color: transparent;
+  background-color: transparent;
+  border: 0 none;
+  
+}
+
+.carousel-status {
+  display: none;
+}
+
+#root .carousel .thumbs-wrapper {
+  margin: 0;
+}
+
+
+
+#root .MuiAccordionSummary-root {
+  padding: 0;
+}
+
+html .MuiPaper-root {
+  background-color: #1D1E36;
+}
+
+@media (max-width: 750px) {
+	html #root  .MuiPaper-root {
+    background-color: transparent;
+    color: #000;
+  }
+}
+
+#root .MuiPaper-root {
+  background-color: #1D1E36;
+  color: #FFF;
+}
+
+img {
+  vertical-align:middle
+}
+
+#root .MuiAccordionSummary-root.Mui-expanded {
+  min-height: 50px;
+  max-height: 50px;
+}
